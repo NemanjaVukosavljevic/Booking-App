@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmation Email</title>
+  <link rel="stylesheet" href="bookingApp.css">
+</head>
+<body>
+  <h1>Confirmation Email</h1>
+  <p>Dear <%= fname %>,</p>
+  <p>Thank you for your reservation. This is a confirmation email.</p>
+
+  <!-- Include the form fields here -->
+  <div class="m-bot-right">
+    <div class="m-bot-p-div">
+        <p>Arrangement Details</p>
+    </div>
+    <div class="m-bot-details">
+        <label for="fromForm">From:</label><br>
+        <input type="text" id="fromForm" name="fromForm" placeholder="" readonly><br>
+        <label for="toForm">To:</label><br>
+        <input type="text" id="toForm" name="toForm" placeholder="" readonly>
+        <label for="transType">Type of Transport:</label><br>
+        <input type="text" id="transType" name="transType" placeholder="" readonly><br>
+        <label for="formDuration">Arrangement Duration</label><br>
+        <input type="text" id="formDuration" name="formDuration" placeholder="" readonly>
+        <p>Price: <span>740$</span></p>
+    </div>
+</div>
+
+</body>
+</html>

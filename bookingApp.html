@@ -1,0 +1,1577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EasyGo Travels</title>
+    <link rel="stylesheet" href="bookingApp.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;1,200&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/gobold" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./dd-pics/easygo-travels-high-resolution-color-logo.png">
+</head>
+<body>
+    <div class="main">
+        <div class="main-wrapper">
+            <p class="paragraph">It's time to <span>Discover</span></p>
+            <p class="paragraph2">find and book a great experience</p>
+        </div>
+
+        <div class="second-div">
+            <div class="search-div">
+
+                <div class="c-info-div">
+                    <div class="c-type-div">
+                        <div class="c-departure-div">
+                            <p class="casual-text">Departure</p>
+
+                            <div class="selector">
+                                <div id="selectorField">
+                                    <p id="selectText">Choose a Departure</p>
+                                    <img src="./dd-pics/arrow.png" id="arrowIcon">
+                                </div>
+                    
+                                <ul id="list" class="hide">
+                                    <li class="options">
+                                        <img src="./dd-pics/serbia.png">
+                                        <p>Belgrade, "Nikola Tesla" Airport</p>
+                                    </li>
+                                    <li class="options">
+                                        <img src="./dd-pics/serbia.png">
+                                        <p>Nis, "Constantin the Great" Airport</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                        </div>
+                        <div class="c-destination-div">
+                            <p class="casual-text">Destination</p>
+
+                            <div class="selector">
+                                <div id="selectorFieldTwo">
+                                    <p id="selectTextTwo">Choose a Destination</p>
+                                    <img src="./dd-pics/arrow.png" id="arrowIconTwo">
+                                </div>
+                    
+                                <ul id="listTwo" class="hide">
+                                    <li class="optionsTwo">
+                                        <img src="./dd-pics/spain.png">
+                                        <p>Spain</p>
+                                    </li>
+                                    <li class="optionsTwo">
+                                        <img src="./dd-pics/greece.png">
+                                        <p>Greece</p>
+                                    </li>
+                                    <li class="optionsTwo">
+                                        <img src="./dd-pics/turkey.png">
+                                        <p>Turkey</p>
+                                    </li>
+                                    <li class="optionsTwo">
+                                        <img src="./dd-pics/netherlands.png">
+                                        <p>Netherlands</p>
+                                    </li>
+                                    <li class="optionsTwo">
+                                        <img src="./dd-pics/colombia.png">
+                                        <p>Colombia</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="c-vehicle-div">
+                            <p class="casual-text">Type of Transport</p>
+
+                            <div class="selector">
+                                <div id="selectorFieldThree">
+                                    <p id="selectTextThree">Choose a type of vehicle</p>
+                                    <img src="./dd-pics/arrow.png" id="arrowIconThree">
+                                </div>
+                    
+                                <ul id="listThree" class="hide">
+                                    <li class="optionsThree">
+                                        <img src="./dd-pics/airplane.png">
+                                        <p>Airplane</p>
+                                    </li>
+                                    <li class="optionsThree">
+                                        <img src="./dd-pics/school-bus.png">
+                                        <p>Bus</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="c-button-div">
+                        <button id="searchButton">Search</button>
+                    </div>
+                </div>
+
+                <div class="popular-destinations-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Popular Destinations</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card" id="card1">
+                            <img src="./Destination pics/Palma De Mallorca.jpeg" alt="Palma De Mallorca picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p id="cardName1">Palma De Mallorca, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip"></span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card2">
+                            <img src="./Destination pics/santorini.jpg" alt="Santorini picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p id="cardName2">Santorini Island, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip"></span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card3">
+                            <img src="./Destination pics/amsterdam.jpg" alt="Palma De Mallorca picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                    <p id="cardName3">Amsterdam, Netherlands</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip"></span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" id="card4">
+                            <img src="./Destination pics/alanya.jpg" alt="Alanya picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p id="cardName4">Alanya, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip"></span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- ________________________________TRECI__________________________________________ -->
+
+            <div class="third-div">
+
+<!-- ________________________________SSPAIN__________________________________________ -->
+
+                <div class="flyToSpain-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Fly to Spain</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Palma De Mallorca.jpeg" alt="Palma De Mallorca picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Palma De Mallorca, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/barcelona.jpg" alt="barcelona picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Barcelona, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Santiago de Compostela.jpg" alt="Santiago de Compostela picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Santiago de Compostela, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Segovia.jpg" alt="Segovia picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Segovia, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travelToSpain-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Spain</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+
+                        <div class="card">
+                            <img src="./Destination pics/Costa Brava.jpg" alt="Costa Brava picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Costa Brava, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Cordoba.jpg" alt="Cordoba picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Cordoba, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Menorca.jpg" alt="Menorca picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Menorca, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Madrid.jpg" alt="Madrid picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/spain.png" alt="spain flag pic">
+                                    <p>Madrid, Spain</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ________________________________TTurkey__________________________________________ -->
+
+                <div class="flyToTurkey-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Fly to Turkey</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Istanbul.jpg" alt="Istanbul picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Istanbul, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Cappadocia.jpg" alt="Cappadocia picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Cappadocia, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Ephesus.jpg" alt="Ephesus picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Ephesus, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Bodrum.jpg" alt="Bodrum picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Bodrum, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travelToTurkey-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Turkey</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Side.jpg" alt="Side picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Side, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Marmaris.jpg" alt="Marmaris picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Marmaris, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Antalya.jpg" alt="Antalya picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Antalya, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Konya.jpg" alt="Konya picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/turkey.png" alt="turkey flag pic">
+                                    <p>Konya, Turkey</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ________________________________GGreece__________________________________________ -->
+
+                <div class="flyToGreece-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Fly to Greece</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Nafplio.jpg" alt="Nafplio picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Nafplio, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/santorini.jpg" alt="Santorini picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Santorini Island, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Corfu.jpg" alt="Corfu picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Corfu, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Knossos.jpg" alt="Knossos picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Knossos, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travelToGreece-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Greece</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Zakynthos.jpg" alt="Zakynthos picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Zakynthos, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Athens.jpeg" alt="Athens picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Athens, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Rhodes.jpg" alt="Rhodes picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Rhodes, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Delphi.jpg" alt="Delphi picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/greece.png" alt="Greek flag pic">
+                                    <p>Delphi, Greece</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ________________________________CColombia__________________________________________ -->
+
+                <div class="flyToColombia-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Fly to Colombia</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/Medellin.jpg" alt="Medellin picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Medellin, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Guatape.jpg" alt="Guatape picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Guatape, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Jardin.jpg" alt="Jardin picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Jardin, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Cartagena.jpg" alt="Cartagena picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Cartagena, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Airplane</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="travelToColombia-div">
+                    <div class="popular-title-div">
+                        <p class="popular-title-text">Colombia</p>
+                    </div>
+
+                    <div class="popular-cards-div">
+                        <div class="card">
+                            <img src="./Destination pics/San Andres Island.jpg" alt="San Andres Island picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>San Andres Island, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Rosario Islands.jpg" alt="Rosario Islands picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Rosario Islands, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Santa Marta.jpg" alt="Santa Marta picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Santa Marta, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img src="./Destination pics/Minca.jpg" alt="Minca picture">
+                            
+                            <div class="pop-card-details">
+                                <div class="pop-dest-name">
+                                    <img src="./dd-pics/colombia.png" alt="colombia flag pic">
+                                    <p>Minca, Colombia</p>
+                                </div>
+    
+                                <div class="pop-dest-duration">
+                                    Duration: 04.08-11.08
+                                </div>
+    
+                                <div class="pop-dest-transport">
+                                    <p>Via Bus</p>
+                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                </div>
+    
+                                <div class="pop-dest-price">
+                                    <p>Price: <span class="spanColored">740$</span></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+<!-- ________________________________NNetherlands__________________________________________ -->
+
+                                <div class="flyToNetherlands-div">
+                                    <div class="popular-title-div">
+                                        <p class="popular-title-text">Fly to Netherlands</p>
+                                    </div>
+                
+                                    <div class="popular-cards-div">
+                                        <div class="card">
+                                            <img src="./Destination pics/Delft.jpg" alt="Delft picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Delft, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Airplane</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/Rotterdam.jpg" alt="Rotterdam picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Rotterdam, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Airplane</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/amsterdam.jpg" alt="Amsterdam picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Amsterdam, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Airplane</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/The Hague.jpg" alt="The Hague picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>The Hague, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Airplane</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                
+                                <div class="travelToNetherlands-div">
+                                    <div class="popular-title-div">
+                                        <p class="popular-title-text">Netherlands</p>
+                                    </div>
+                
+                                    <div class="popular-cards-div">
+                                        <div class="card">
+                                            <img src="./Destination pics/Maastricht.jpg" alt="Maastricht picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Maastricht, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Bus</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/Edam.jpg" alt="Edam picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Edam, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Bus</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/Eindhoven.jpg" alt="Eindhoven picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Eindhoven, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Bus</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                
+                                        <div class="card">
+                                            <img src="./Destination pics/Leiden.jpg" alt="Leiden picture">
+                                            
+                                            <div class="pop-card-details">
+                                                <div class="pop-dest-name">
+                                                    <img src="./dd-pics/netherlands.png" alt="netherlands flag pic">
+                                                    <p>Leiden, Netherlands</p>
+                                                </div>
+                    
+                                                <div class="pop-dest-duration">
+                                                    Duration: 04.08-11.08
+                                                </div>
+                    
+                                                <div class="pop-dest-transport">
+                                                    <p>Via Bus</p>
+                                                    <div class="pop-dest-transport-img-div"><img src="" alt=""><span class="tooltip">Lufthansa</span></div>
+                                                </div>
+                    
+                                                <div class="pop-dest-price">
+                                                    <p>Price: <span class="spanColored">740$</span></p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+            </div>
+
+            <div class="j-offer-header-div">
+                <h2 class="travelAgentHeading">
+                    Join other +1200 travel agents
+                    <br>
+                    registered in the system
+                </h2>
+            </div>
+
+            <div class="j-true-div">
+                <div class="img-container">
+                    <img src="./dd-pics/figure-icon.png" alt="figure icon">
+                </div>
+
+                <div class="row">
+                    <p>Want to <strong>find out more</strong> about our <strong>online travel booking opportunities</strong>?</p>
+                </div>
+
+                <div class="row">
+                    <button type="button" id="contactButton">CONTACT US</button>
+                </div>
+
+                <div class="packer">
+                    <div class="pac-top">
+                        <div class="top-l">
+                            <span class="value">+1200</span>
+                            <p><strong>registered travel agents</strong><br>in<br> EasyGo Travels system</p>
+                        </div>
+
+                        <div class="top-r">
+                            <span class="value">+7</span>
+                            <p>EasyGo Travels has<strong> more than 7<br>years</strong> in the travel industry</p>
+                        </div>
+
+                    </div>
+                    <div class="pac-bot">
+                        <div class="bot-l">
+                            <span class="value">+150</span>
+                            <p><strong>travel arrangements</strong> all over<br> the GLOBE</p>
+                        </div>
+
+                        <div class="bot-r">
+                            <span class="value">+110</span>
+                            <p><strong>travel service & 3rd party carriers already integrated</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-div">
+                <div class="top-footer">
+                    <div class="top-left">
+                        <p><span>Save time, save money!</span></p>
+                        <p>Sign up and you'll recieve best offers as well as information on the current status regarding your travels!</p>
+                    </div>
+
+                    <div class="top-right">
+                        <p>Subscribe to our Newsletter</p>
+
+                        <div class="bot-sub-div">
+                            <input type="text" placeholder="Your e-mail address">
+                            <button>Sign up</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="bottom-footer">
+                </div>
+            </div>
+
+<!-- _______ MODAL _______ -->
+
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close" onclick="closeModal()">&times;</span>
+
+                    <div class="modal-top">
+                        <div class="modal-logo">
+                            <img src="./dd-pics/easygo-travels-high-resolution-color-logo.png" alt="">
+                        </div>
+
+                        <div class="payment-text">
+                            <p>PAYMENT FORM</p>
+                        </div>
+                    </div>
+
+                    <div class="modal-bottom">
+                        <div class="m-bot-left">
+                            <div class="m-bot-p-div">
+                                <p>Personal Details</p>
+                            </div>
+                            <div class="m-bot-details">
+                                <form id="payment-form" action="http://localhost:3000/send-confirmation" method="POST">
+                                    <label for="fname">First name:</label><br>
+                                    <input type="text" id="fname" name="fname"><br>
+                                    <label for="lname">Last name:</label><br>
+                                    <input type="text" id="lname" name="lname">
+                                    <label for="email">Email:</label>
+                                    <input type="email" id="email" name="email" inputmode="email">
+                                    <input type="hidden" id="hidden-email" name="hidden-email">
+                                    <label for="phone">Phone number:</label>
+                                    <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" maxlength="13" inputmode="tel">
+                                    <div class="reserve-div">
+                                        <button type="button" id="reserveButton">RESERVE</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="m-bot-right">
+                            <div class="m-bot-p-div">
+                                <p>Arrangement Details</p>
+                            </div>
+                            <div class="m-bot-details">
+                                <label for="fromForm">From:</label><br>
+                                <input type="text" id="fromForm" name="fromForm" placeholder="" readonly><br>
+                                <label for="toForm">To:</label><br>
+                                <input type="text" id="toForm" name="toForm" placeholder="" readonly>
+                                <label for="transType">Arrangement Duration/Type of Transport:</label><br>
+                                <input type="text" id="transType" name="transType" placeholder="" readonly><br>
+                                <label for="formDuration">Total:</label><br>
+                                <input type="text" id="formDuration" name="formDuration" placeholder="" readonly>
+                                <p id="formPrice" class="formPrice"><span></span></p>
+                                
+                                <div class="pos-feed-div-two">
+                                    <p>Congratulations! You've succesfully added funds to your account! Enjoy your travels!</p>
+                                </div>
+                                <div class="neg-feed-div-two">
+                                    <p>There was an issue in processing your payment! Please check your card balance!</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+<!-- _______ MODAL 2 _______ -->
+
+        <div id="modal2" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal2()">&times;</span>
+              <div class="modal-top">
+                <div class="modal-logo">
+                    <img src="./dd-pics/easygo-travels-high-resolution-color-logo.png" alt="">
+                </div>
+
+                <div class="payment-text">
+                    <p>ADD FUNDS</p>
+                </div>
+            </div>
+              <div class="modal-bottom bbb">
+                <div class="mod-container">
+
+                    <div class="card-container">
+                
+                        <div class="front">
+                            <div class="image">
+                                <img src="./card pics/chip.png" alt="">
+                                <img src="" alt="">
+                            </div>
+                            <div class="card-number-box">################</div>
+                            <div class="flexbox">
+                                <div class="box">
+                                    <span>Card holder</span>
+                                    <div class="card-holder-name">Full name</div>
+                                </div>
+                                <div class="box">
+                                    <span>Expires</span>
+                                    <div class="expiration">
+                                        <span class="exp-month">MM</span>
+                                        <span class="exp-year">YY</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <div class="back">
+                            <div class="stripe"></div>
+                            <div class="box">
+                                <span>CVV</span>
+                                <div class="cvv-box"></div>
+                                <img src="" alt="">
+                            </div>
+                        </div>
+                
+                    </div>
+                
+                    <form onsubmit="return false;" id="ccard-form">
+                        <div class="inputBox">
+                            <span>card number</span>
+                            <input type="text" maxlength="16" class="card-number-input">
+                        </div>
+                        <div class="inputBox">
+                            <span>card holder</span>
+                            <input type="text" class="card-holder-input" maxlength="21">
+                        </div>
+                        <div class="flexbox">
+                            <div class="inputBox">
+                                <span>expiration mm</span>
+                                <select name="" id="" class="month-input">
+                                    <option value="month" selected disabled>month</option>
+                                    <option value="01">01</option>
+                                    <option value="02">02</option>
+                                    <option value="03">03</option>
+                                    <option value="04">04</option>
+                                    <option value="05">05</option>
+                                    <option value="06">06</option>
+                                    <option value="07">07</option>
+                                    <option value="08">08</option>
+                                    <option value="09">09</option>
+                                    <option value="10">10</option>
+                                    <option value="11">11</option>
+                                    <option value="12">12</option>
+                                </select>
+                            </div>
+                            <div class="inputBox">
+                                <span>expiration yy</span>
+                                <select name="" id="" class="year-input">
+                                    <option value="year" selected disabled>year</option>
+                                    <option value="2023">2023</option>
+                                    <option value="2024">2024</option>
+                                    <option value="2025">2025</option>
+                                    <option value="2026">2026</option>
+                                    <option value="2027">2027</option>
+                                    <option value="2028">2028</option>
+                                    <option value="2029">2029</option>
+                                    <option value="2030">2030</option>
+                                    <option value="2031">2031</option>
+                                    <option value="2032">2032</option>
+                                </select>
+                            </div>
+                        
+                                <div class="inputBox hhh">
+                                    <span>CVV</span>
+                                    <input type="text" maxlength="3" class="cvv-input">
+                                </div>
+    
+                                <div class="inputBox hhh">
+                                    <span>Amount ($)</span>
+                                    <input type="text" maxlength="4" class="amount-input">
+                                </div>
+                            </div>
+
+                        <input type="submit" value="SUBMIT" class="submit-btn">
+                    </form>
+                
+                </div>  
+
+                <div class="pos-feed-div">
+                    <p>Congratulations! You've succesfully added funds to your account! Enjoy your travels!</p>
+                </div>
+                <div class="neg-feed-div">
+                    <p>There was an issue in processing your payment! Please check your card balance!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+
+          <div class="container" id="cepaj" onclick="openModal2()">
+            <div class="text-container">Add Funds</div>
+          </div>
+        </div>
+
+
+        <div id="modal3" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal3()">&times;</span>
+
+              <div class="modal-top">
+                <div class="modal-logo">
+                    <img src="./dd-pics/easygo-travels-high-resolution-color-logo.png" alt="">
+                </div>
+
+                <div class="payment-text">
+                    <p>CONTACT US</p>
+                </div>
+                </div>
+                <div class="modal-bottom">
+                    <div class="m-bot-left">
+                        <div class="m-bot-mapss">
+                            <p><span>Address:</span></p>
+                            <p>Balkanska 1, Beograd 11000</p>
+                            <p><span>Phone number:</span></p>
+                            <p>+381619123312</p>
+                            <p><span>Email:</span></p>
+                            <p>easygotravels@gmail.com</p>
+                            <p><span>Working hours:</span></p>
+                            <p>Mon-Fri (09h-17h)</p>
+                        </div>
+                    </div>
+
+                    <div class="m-bot-mappp">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1000.7077351531065!2d20.45954851254531!3d44.812826225582484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a7ab209cff051%3A0x52504f6400d4b777!2sHotel%20Moskva%20Belgrade%2C%20Serbia!5e0!3m2!1sen!2srs!4v1691868322771!5m2!1sen!2srs" width="700" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+
+                </div>
+        </div>
+        </div>
+    </div>
+
+    <script src="bookingApp.js"></script>
+</body>
+</html>
